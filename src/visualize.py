@@ -12,6 +12,8 @@ args = parser.parse_args()
 import os
 import json
 from collections import Counter,defaultdict
+import matplotlib
+import matplotlib.pyplot as plt
 
 # open the input path
 with open(args.input_path) as f:
@@ -26,3 +28,22 @@ if args.percent:
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
 for k,v in items:
     print(k,':',v)
+
+# create plottable dictionary
+lists = sorted(sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)[:10], key=lambda kv: kv[1])
+key, value = zip(*lists)
+
+# initialize bar graph
+plt.bar(key, value, color = 'green', width = 0.5)
+
+if args.input_path == 'reduced.lang':
+    plt.xlabel("Language")
+    plt.ylabel("Usage: " + args.key)
+    plt.title("Tweets containing " + args.key + " per language for the year of 2020")
+else:
+    plt.xlabel("Country")
+    plt.ylabel("Usage: " + args.key)
+    plt.title("Tweets containing " + args.key + " per language for the year of 2020")
+
+# save graph
+plt.savefig(args.input_path + args.key + 'bar.png')
