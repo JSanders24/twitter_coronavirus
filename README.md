@@ -170,6 +170,9 @@ Complete the following tasks:
     This explanation should be suitable for a future employer to look at while they are interviewing you to get a rough idea of what you accomplished.
     (And you should tell them about this in your interviews!)
 
+Brief Explanation Of Results:
+The vizualization graphs represent the usages of the key phrases "coronavirus" and "코로나바이러스" in both each language and each country. These results demonstrate that the highest rate of coronavirus searches came in the United States and the highest rate of 코로나바이러스 searches came in korea. In my particular results they are skewed because it seems to be operating on a limited dataset. The number of tweets in total is drastically lower than what would be expected. However, it signals that the code for visualization and run maps is likely correct it is just not accessing the correct data. Furthermore, for the data for "coronavirus" searches, there are enough results to get a sense of what the trends would be so it's likely that this is still a good representation of the distribution.
+
 ## Submission
 
 Upload a link to you github repository on sakai.
