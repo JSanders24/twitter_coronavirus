@@ -87,5 +87,5 @@ with open(output_path_lang,'w') as f:
 
 output_path_country = output_path_base+'.country'
 print('saving',output_path_country)
-with open(output_path_country, 'w') as g:
+with open(output_path_country,'w') as g:
     g.write(json.dumps(counter_country))
