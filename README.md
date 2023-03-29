@@ -172,10 +172,10 @@ Complete the following tasks:
 
 Brief Explanation Of Results:
 The vizualization graphs represent the usages of the key phrases "coronavirus" and "코로나바이러스" in both each language and each country. These results demonstrate that the highest rate of coronavirus searches came in the United States and the highest rate of 코로나바이러스 searches came in korea. In my particular results they are skewed because it seems to be operating on a limited dataset. The number of tweets in total is drastically lower than what would be expected. However, it signals that the code for visualization and run maps is likely correct it is just not accessing the correct data. Furthermore, for the data for "coronavirus" searches, there are enough results to get a sense of what the trends would be so it's likely that this is still a good representation of the distribution. *RESOLVED* I resolved this issue by rerunning the merge of the output files, the original data presumably was just a single output file. Below are the explained graphs:
-![#Coronavirus Tweets By Language](https://github.com/JSanders24/twitter_coronavirus/blob/beef1179ca1492d2f19b4963d2c07ef793d366fa/plots/reduced.lang%23coronavirusbar.png)
-![#Coronavirus Tweets By Country](https://github.com/JSanders24/twitter_coronavirus/blob/beef1179ca1492d2f19b4963d2c07ef793d366fa/plots/reduced.country%23coronavirusbar.png)
-![#코로나바이러스 Tweets By Language](https://github.com/JSanders24/twitter_coronavirus/blob/beef1179ca1492d2f19b4963d2c07ef793d366fa/plots/reduced.lang%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4bar.png)
-![#코로나바이러스 Tweets By Country](https://github.com/JSanders24/twitter_coronavirus/blob/beef1179ca1492d2f19b4963d2c07ef793d366fa/plots/reduced.country%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4bar.png)
+![#Coronavirus Tweets By Language](https://github.com/JSanders24/twitter_coronavirus/blob/31204d4edf430884b25d837dc0fcd9d963efe51a/plots/reduced.lang%23coronavirusbar.png)
+![#Coronavirus Tweets By Country](https://github.com/JSanders24/twitter_coronavirus/blob/31204d4edf430884b25d837dc0fcd9d963efe51a/plots/reduced.country%23coronavirusbar.png)/
+![#코로나바이러스 Tweets By Language](https://github.com/JSanders24/twitter_coronavirus/blob/31204d4edf430884b25d837dc0fcd9d963efe51a/plots/reduced.lang%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4bar.png)
+![#코로나바이러스 Tweets By Country](https://github.com/JSanders24/twitter_coronavirus/blob/31204d4edf430884b25d837dc0fcd9d963efe51a/plots/reduced.lang%23coronavirusbar.png)
 
 ## Submission
 
