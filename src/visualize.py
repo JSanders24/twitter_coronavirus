@@ -46,4 +46,4 @@ else:
     plt.title("Tweets containing " + args.key + " per language for the year of 2020")
 
 # save graph
-plt.savefig(args.input_path + args.key + 'bar.png')
+plt.savefig('plots/' + args.input_path + args.key + 'bar.png')
